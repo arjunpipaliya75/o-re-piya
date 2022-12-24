@@ -1,0 +1,1820 @@
+#include<stdio.h>
+int main()
+{
+
+	int movie,time,Continue,a,y;
+	
+	printf("\nwelcome to bookmymovie ");
+	printf("\nhere is list of movie");
+	printf("\n1.sole      2. mahotarma   3.ram        4.tarejameenpar     5.kahonapyaarhe");
+	printf("\n6.sole      7.kaali        8.humtum     9.pyaar       10.raja ");
+	printf("\n choose movie to watch::---");
+	scanf("%d",&movie);
+	if(movie==1)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("please not leave the screen");
+			
+			printf("untill payement  get paid");
+			
+			printf("\n continue");
+			
+			printf("1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("please not leave the screen");
+			
+			printf("untill payement  get paid");
+			
+			printf("\n continue");
+			
+				printf("1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("please not leave the screen");
+			
+			printf("untill payement  get paid");
+			
+			printf("\n continue");
+			
+				printf("1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("please not leave the screen");
+			
+			printf("untill payement  get paid");
+			
+			printf("\n continue");
+			
+				printf("1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("please not leave the screen");
+			
+			printf("untill payement  get paid");
+			
+			printf("\n continue");
+			
+			printf("1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("please not leave the screen");
+			
+			printf("untill payement  get paid");
+			
+			printf("\n continue");
+			
+			printf("1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("something went wrong");
+			printf("please select valid time");
+		}
+	}
+	else if(movie==2)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+	else if(movie==3)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+	else if(movie==4)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+	else if(movie==5)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+	else if(movie==6)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+	else if(movie==7)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+	else if(movie==8)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}	else if(movie==9)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\n untill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}	
+	else if(movie==10)
+	{
+		printf("\n here is show time ::-- ");
+		printf("\n 1. 09:00 a.m. to 12:00 p.m.");
+		printf("\n 2. 12:00 a.m. to 02:00 p.m.");
+		printf("\n 3. 3:00 a.m.  to 04:30 p.m.");
+		printf("\n 4. 05:00 a.m. to 07:30 p.m.");
+		printf("\n 5. 08:00 a.m. to 09:30 p.m.");
+		printf("\n 6. 10:00 a.m. to 11:30 p.m.");
+		printf("\n please select time to watch movie::--");
+		scanf("%d",&time);
+		if(time==1)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no :--");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+							
+			scanf("%d",&Continue);
+			
+		}
+		else if(time==2)
+		{
+		
+			printf("\npay 20$");
+			
+			printf("\ncontinue :--");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay :--");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==3)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking:::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==4)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+				printf("\n1.yes    2.no  :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==5)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+	    	printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+			
+			scanf("%d",&Continue);
+			
+		}
+		 else if(time==6)
+		{
+			printf("\npay 20$");
+			
+			printf("\ncontinue");
+			
+			printf("\n  1.yes   2.no");
+			
+			scanf("%d",&Continue);
+			
+			printf("\nchoose method to pay");
+			
+			printf("\n1.g pay  2. upi  3.net banking::--");
+			
+			scanf("%d",&y);
+			
+			printf("\nplease not leave the screen");
+			
+			printf("\nuntill payement  get paid");
+			
+			printf("\n continue:--");
+			
+			printf("\n1.yes    2.no :--");
+				
+			scanf("%d",&Continue);
+			
+		}
+		else
+		{
+			printf("\nsomething went wrong");
+			printf("\nplease select valid time");
+		}
+}
+else
+{
+	printf("\nsomething went wrong");
+	printf("\nplease select available movie");
+}
+return 0;
+}
+			
+	
