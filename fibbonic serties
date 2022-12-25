@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{
+	int a=0,b=1,fib=0,i,temp,n;
+	
+	printf("\nenter number to print how long fibb needed");
+	scanf("%d",&n);
+	
+	if(n==1)
+	{
+		printf("%d\n",a);
+	}
+	else if(n==2)
+	{
+		printf("%d\n",a);
+		printf("%d\n",b);
+	}
+	else
+	{
+		printf("%d\n",a);
+		printf("%d\n",b);
+		
+		for(i=3;i<=n;i++)
+		{
+		
+		fib=a+b;
+		printf("%d\n",fib);
+		a=b;
+		b=fib;
+	}
+	}
+	
+	return 0;
+}
+
+
+
+
+
+//0  1  1  2  3  5  8  13   21   34
