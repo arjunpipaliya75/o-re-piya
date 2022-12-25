@@ -11,12 +11,12 @@ int main()
  		printf("\nenter student name :");
  		scanf("%s",&name);
  		
-		printf("\n\nenter roll no:-");
+		printf("\nenter roll no:-");
 		scanf("%d",&roll[i]);
 
 		for (j=0;j<3;j++)
 		{
-		printf("\nenter the marks of subject %d:-",i+1);
+		printf("\nenter the marks of subject %d:-",j+1);
 		scanf("%d",&marks[j]);
 		total[i]+=marks[j];
 		per[i]=(total[i]/3);
