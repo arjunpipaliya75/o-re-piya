@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int s,m,h,a;
+	
+	printf("enter second");
+	scanf("%d",&a);
+	
+	h=(a/3600);
+	m=((a-h*3600)/60);
+	s=(a-(h*3600)-(m*60));
+	
+	printf("hour %d\n",h);
+	printf("minute %d\n",m);
+	printf("second %d\n",s);
+	
+	
+	
+	
+	
+	return 0;
+}
