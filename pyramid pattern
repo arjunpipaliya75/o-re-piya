@@ -52,3 +52,66 @@ int main()
 }
 	return 0;
 }
+
+////print * invert pyramid pattern////
+
+
+#include<stdio.h>
+int main()
+{
+	int i,j,k;
+	
+	printf("\nenter number ");
+	scanf("%d",&k);
+	
+	for(i=k;i>=1;--i)
+{
+
+	    for(j=1;j<=i;++j)
+	
+  	{
+	
+	  printf("*");
+	  
+    }
+	    
+	    printf("\n");
+
+}
+	return 0;
+}
+
+
+////print number in inverted pyramid pattern ////
+
+
+#include<stdio.h>
+int main()
+{
+	int i,j,k;
+	
+	printf("\nenter number ");
+	scanf("%d",&k);
+	
+	for(i=k;i>=1;--i)
+{
+
+	    for(j=1;j<=i;++j)
+	
+  	{
+	
+	  printf("%d",j);
+	  
+    }
+	    
+	    printf("\n");
+
+}
+	return 0;
+}
+
+
+////print same number in inverted pyramide  ////
+
+
+
