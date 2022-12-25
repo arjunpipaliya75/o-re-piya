@@ -1,0 +1,25 @@
+#include<stdio.h>
+int recu(int x);
+int main()
+{
+	int b,fact;
+	
+	printf("enter number ");
+	scanf("%d",&b);
+	fact=recu(b);
+	
+	printf("%d",fact);
+	
+	return 0;
+}
+int recu(int a)
+{
+	int fact,n;
+	
+	if (a==0)
+	
+		return 1;
+	n=a*recu(a-1);
+	return n;
+	
+}
