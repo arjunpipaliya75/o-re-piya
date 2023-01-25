@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	struct student
+	{
+		int roll;
+		int age;
+		char name[100];
+
+	}s[i];
+	
+	printf("\nenter students name");
+	for(i=0;i<2;i++)		
+	{	
+		printf("\nenter the first name : ");
+		scanf("%s",&s[i].name[i]);
+		printf("\nenter roll number : ");
+		scanf("%d",&s[i].roll);
+		printf("\nenter age of student : ");
+		scanf("%d",& s[i].age);
+	}
+	printf("\ndata provided ----:");
+	for(i=0;i<2;i++)
+	{
+		printf("\nstudent name : ");
+        puts(s[i].name);
+		printf("\n ROLL : %d",s[i].roll);
+		printf("\n age : %d",s[i].age);
+	}
+		
+	return 0;
+	
+}
